@@ -18,4 +18,4 @@ xTun PSK: $XTUN_PSK
 
 EOF
 
-/opt/xtun/xTun -I $NET -k $XTUN_PSK -s -P 128 -n -V
+/opt/xtun/xTun -I $NET -k $XTUN_PSK --mtu 1280 -s -p 443 -P 128 -n -V
